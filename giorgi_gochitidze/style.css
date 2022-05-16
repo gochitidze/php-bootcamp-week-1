@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ccc;
+}
+.wraper {
+    display: flex;
+    justify-content: center;
+}
+form {
+    background: #d7d7d7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input {
+    padding: 4px 0;
+}
+.input label {
+    display: block;
+    width: 100%;
+}
+.input input {
+    padding: 8px 10px;
+    width: 100%;
+}
+#avatar {
+    background: #b9b9b9;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.submit input {
+    cursor: pointer;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: yellow;
+}
+
+.avatar-img {
+    width: 300px;
+    padding: 20px;
+    background-color: #b9b9b9;
+}
+.avatar-img img {
+    width: 100%;
+}
